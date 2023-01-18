@@ -12,7 +12,7 @@ for line in sys.stdin:
     # split the line into words; splits on any whitespace
     words = line.split()
 
-    stopwords=set(['the','and'])
+    stopwords=set(['the','and','a','for'])
 
     # output tuples (word, 1) in tab-delimited format
     for word in words:
